@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/MyBlog/",
   title: "Jeffrey Lam的个人站点",
   description: "个人站点",
   themeConfig: {
